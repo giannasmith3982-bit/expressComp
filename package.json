@@ -1,28 +1,13 @@
 {
-  "name": "metaadvance",
+  "name": "express-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node.js Express API ready for Shiper deployment",
   "main": "index.js",
   "scripts": {
-     "start": "node index.js",
-     "build": "npm install"
+    "start": "node index.js",
+    "build": "echo 'No build step needed'"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.20.2",
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "express-useragent": "^1.0.15",
-    "firebase": "^10.3.1",
-    "mobile-detect": "^1.4.5",
-    "nodemailer": "^6.9.5",
-    "nodemon": "^3.0.1",
-    "path": "^0.12.7"
-  },
-  "devDependencies": {
-    "@flydotio/dockerfile": "^0.5.8"
+    "express": "^4.18.2"
   }
 }
-
-
